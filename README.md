@@ -2,6 +2,14 @@
 
 Read-only PowerShell hunters for **Turla Cereal** patterns described in ESET Research (*Exchange for breakfast: Turla’s Cereal tricks are not for kids*). Complements antivirus/EDR; does not replace memory forensics.
 
+## How Cereal sits on Exchange
+
+![Cereal on Exchange — server is the C2](CerealExchange.png)
+
+## How the detection tool works
+
+![CerealBox detection tool — read-only host hunter](CerealBoxdetection.png)
+
 ## Contents
 
 | Path | Purpose |
