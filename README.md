@@ -1,5 +1,7 @@
 # CerealBox — Turla Cereal host detection kit
 
+**Article:** [When breakfast is served from your own Exchange server — building a practical Cereal host hunter](https://www.linkedin.com/pulse/when-breakfast-served-your-own-exchange-server-building-practical-krxkf/)
+
 Read-only PowerShell hunters for **Turla Cereal** patterns described in ESET Research (*Exchange for breakfast: Turla’s Cereal tricks are not for kids*). Complements antivirus/EDR; does not replace memory forensics.
 
 ## How Cereal sits on Exchange
