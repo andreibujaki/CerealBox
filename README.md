@@ -11,8 +11,7 @@ Read-only PowerShell hunters for **Turla Cereal** patterns described in ESET Res
 | `iocs/cereal-iocs.json` | IoC pack (SHA-1/SHA-256, URI prefixes, config key) |
 | `iocs/hash-map.csv` | Flat hash map for SIEM / spreadsheets |
 | `yara/cereal.yar` | Optional YARA rules |
-| `README-Cereal-Scanner.md` | English operator notes |
-| `README-Cereal-Scanner-RO.md` | Romanian operator notes |
+| `tools/` | IoC resolve helpers |
 
 ## Quick start (elevated PowerShell)
 

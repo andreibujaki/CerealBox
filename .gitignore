@@ -14,12 +14,18 @@ iocs/sha1-sha256-map.json
 # Copyrighted third-party PDF (obtain from ESET / WeLiveSecurity)
 turla-cereal-tricks.pdf
 
+# Articles / banners (local only — not on GitHub)
+LinkedIn-*.md
+linkedin-*-banner*.jpg
+README-Cereal-Scanner.md
+README-Cereal-Scanner-RO.md
+_article_part*.md
+
 # OS / editor
 Thumbs.db
 Desktop.ini
 .DS_Store
 *.tmp
-_article_part*.md
 tools/_wc_append.py
 tools/translate_article_ro*.py
 tools/vt_ui_resolve.py
