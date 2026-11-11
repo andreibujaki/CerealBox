@@ -28,6 +28,24 @@ Exchange mailbox servers:
 
 Exit codes: `0` = no Critical/High, `2` = Critical/High findings.
 
+### Optional YARA
+
+`yara64.exe` is **not** included in this repository. Download it from the official YARA releases: https://github.com/VirusTotal/yara/releases
+
+Then either:
+
+- place `yara64.exe` in `.\tools\`, or
+- install under `C:\Program Files\YARA\`, or
+- put it on PATH, or
+- pass `-YaraPath C:\path\to\yara64.exe`
+
+Without it, all PowerShell checks still run; only `-RunYara` is skipped.
+
+```powershell
+.\Scan-Cereal.ps1 -OutputJson .\cereal-findings.json -RunYara
+.\Scan-Exchange-Cereal-Deep.ps1 -RunYara -OutputJson .\exchange-cereal.json
+```
+
 ## What it checks
 
 - ESET Cereal SHA-1 IoCs + verified / hunt-set SHA-256
