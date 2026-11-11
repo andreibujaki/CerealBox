@@ -1,0 +1,25 @@
+# Local scan outputs
+cereal-findings.json
+exchange-cereal.json
+*.findings.json
+
+# Scratch / API resolve dumps
+iocs/vt-resolve.json
+iocs/vt-ui-resolve.json
+iocs/mb-resolve.json
+iocs/threatfox-resolve.json
+iocs/eset-turla-map.json
+iocs/sha1-sha256-map.json
+
+# Copyrighted third-party PDF (obtain from ESET / WeLiveSecurity)
+turla-cereal-tricks.pdf
+
+# OS / editor
+Thumbs.db
+Desktop.ini
+.DS_Store
+*.tmp
+_article_part*.md
+tools/_wc_append.py
+tools/translate_article_ro*.py
+tools/vt_ui_resolve.py

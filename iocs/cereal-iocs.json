@@ -1,0 +1,260 @@
+{
+  "source": "ESET white paper: Exchange for breakfast - Turla Cereal tricks (2026-11-10); SHA-256 corpus from github.com/eset/malware-ioc turla/samples.sha256 (Cereal batch); SHA-1/SHA-256 pairs verified via VirusTotal UI where noted",
+  "updated": "2026-11-11",
+  "notes": "CerealNeuron and CerealBox have no published file hashes (in-memory / passive). All 18 published SHA-1 IoCs are listed. Additional SHA-256 values from the ESET turla IoC batch are included for hunting even when exact SHA-1 pairing is still pending VT verification.",
+  "files": [
+    {
+      "sha1": "4A3C263977417FB6977B0E598C9E3BC5924F390C",
+      "sha256": "13FE1EB9B182B076A815F84D34B66365809D0CFF32DF6F5B85AA7EF4DEEE98E0",
+      "filename": "Microsoft.Exchange.Data.Transport.ni.dll",
+      "role": "CerealLoader",
+      "eset": "MSIL/Agent.YCC",
+      "sha256_verified": "virustotal",
+      "vt": "https://www.virustotal.com/gui/file/13fe1eb9b182b076a815f84d34b66365809d0cff32df6f5b85aa7ef4deee98e0",
+      "hybrid_analysis": "https://hybrid-analysis.com/sample/13fe1eb9b182b076a815f84d34b66365809d0cff32df6f5b85aa7ef4deee98e0"
+    },
+    {
+      "sha1": "7742C6B0AAF114335CEF7EBAB11290CB18A0B8B3",
+      "sha256": "241AAC14756A0F29EDD084B858623DB259D59C77EA44889DE93431C42FF10036",
+      "filename": "version.dll",
+      "role": "CerealLoader",
+      "eset": "MSIL/Agent.YCC",
+      "sha256_verified": "virustotal",
+      "vt": "https://www.virustotal.com/gui/file/241aac14756a0f29edd084b858623db259d59c77ea44889de93431c42ff10036",
+      "hybrid_analysis": "https://hybrid-analysis.com/sample/241aac14756a0f29edd084b858623db259d59c77ea44889de93431c42ff10036"
+    },
+    {
+      "sha1": "AFE448DD95494CD14438F04F0C5F6B384664A3B7",
+      "sha256": "D3B6065EB001D169421FCD146F64B087055DADEBD973D8D69AE2BF97FBF288E2",
+      "filename": "version.dll",
+      "role": "CerealLoader",
+      "eset": "MSIL/Agent.YCC",
+      "sha256_verified": "virustotal",
+      "vt": "https://www.virustotal.com/gui/file/d3b6065eb001d169421fcd146f64b087055dadebd973d8d69ae2bf97fbf288e2",
+      "hybrid_analysis": "https://hybrid-analysis.com/sample/d3b6065eb001d169421fcd146f64b087055dadebd973d8d69ae2bf97fbf288e2"
+    },
+    {
+      "sha1": "4A65040646E354303F067D47AA1C953D467F65CB",
+      "sha256": "6119D25AE51D04264384F5D738C104E42596B0774609666B357A43608A48404C",
+      "filename": "Microsoft.Search.Platform.dll",
+      "role": "CerealLoader",
+      "eset": "MSIL/Agent.YCA",
+      "sha256_verified": "virustotal",
+      "vt": "https://www.virustotal.com/gui/file/6119d25ae51d04264384f5d738c104e42596b0774609666b357a43608a48404c",
+      "hybrid_analysis": "https://hybrid-analysis.com/sample/6119d25ae51d04264384f5d738c104e42596b0774609666b357a43608a48404c"
+    },
+    {
+      "sha1": "D1E17520A2435EDCDCC47F582381416FBDF75F94",
+      "sha256": "41164EB06ADC72B187EDAF90D73CA73BE729D4EBFDECF57D7398561136941651",
+      "filename": "Microsoft.Ceres.dll",
+      "role": "CerealLoader",
+      "eset": "MSIL/Agent.YCA",
+      "sha256_verified": "virustotal",
+      "vt": "https://www.virustotal.com/gui/file/41164eb06adc72b187edaf90d73ca73be729d4ebfdecf57d7398561136941651",
+      "hybrid_analysis": "https://hybrid-analysis.com/sample/41164eb06adc72b187edaf90d73ca73be729d4ebfdecf57d7398561136941651"
+    },
+    {
+      "sha1": "7AB784D0049890D9844AEE7F214BA173E3CC23BE",
+      "sha256": null,
+      "filename": "wbemcomn.dll",
+      "role": "CerealLoader",
+      "eset": "MSIL/Agent.YCA",
+      "sha256_verified": null,
+      "vt": "https://www.virustotal.com/gui/file/7ab784d0049890d9844aee7f214ba173e3cc23be",
+      "hybrid_analysis": "https://hybrid-analysis.com/sample/7ab784d0049890d9844aee7f214ba173e3cc23be"
+    },
+    {
+      "sha1": "5D80118B1EE974936322475F740AB3AEFF70B8F3",
+      "sha256": null,
+      "filename": "EdgeTransport.ni.exe",
+      "role": "CerealLoader",
+      "eset": "MSIL/Agent.YCC",
+      "sha256_verified": null,
+      "vt": "https://www.virustotal.com/gui/file/5d80118b1ee974936322475f740ab3aeff70b8f3",
+      "hybrid_analysis": "https://hybrid-analysis.com/sample/5d80118b1ee974936322475f740ab3aeff70b8f3"
+    },
+    {
+      "sha1": "D51C58C2E95D4561848E0A5A8B9FB33C847C50A4",
+      "sha256": null,
+      "filename": "iph.dat",
+      "role": "CerealLoader",
+      "eset": "MSIL/Agent.YCA",
+      "sha256_verified": null,
+      "vt": "https://www.virustotal.com/gui/file/d51c58c2e95d4561848e0a5a8b9fb33c847c50a4",
+      "hybrid_analysis": "https://hybrid-analysis.com/sample/d51c58c2e95d4561848e0a5a8b9fb33c847c50a4"
+    },
+    {
+      "sha1": "5B94FE76EC4FEB0B5CB6EA3BCA4C48D2FE22597B",
+      "sha256": null,
+      "filename": "ncobjapi.dll",
+      "role": "CerealLoader",
+      "eset": "MSIL/Agent.YCA",
+      "sha256_verified": null,
+      "vt": "https://www.virustotal.com/gui/file/5b94fe76ec4feb0b5cb6ea3bca4c48d2fe22597b",
+      "hybrid_analysis": "https://hybrid-analysis.com/sample/5b94fe76ec4feb0b5cb6ea3bca4c48d2fe22597b"
+    },
+    {
+      "sha1": "1408A8F62B09A5AD0DFF279B2878D8F59F70A330",
+      "sha256": null,
+      "filename": "Microsoft.Exchange.Search.Mdb.ni.dll",
+      "role": "CerealLoader",
+      "eset": "MSIL/Agent.YCC",
+      "sha256_verified": null,
+      "vt": "https://www.virustotal.com/gui/file/1408a8f62b09a5ad0dff279b2878d8f59f70a330",
+      "hybrid_analysis": "https://hybrid-analysis.com/sample/1408a8f62b09a5ad0dff279b2878d8f59f70a330"
+    },
+    {
+      "sha1": "3D1A534CE0D0C293F62ECE556CBC6D0728213104",
+      "sha256": null,
+      "filename": "Microsoft.Exchange.EdgeSyncSvc.ni.exe",
+      "role": "CerealLoader",
+      "eset": "MSIL/Agent.YCC",
+      "sha256_verified": null,
+      "vt": "https://www.virustotal.com/gui/file/3d1a534ce0d0c293f62ece556cbc6d0728213104",
+      "hybrid_analysis": "https://hybrid-analysis.com/sample/3d1a534ce0d0c293f62ece556cbc6d0728213104"
+    },
+    {
+      "sha1": "AD85FBF2CC879D4325BCE1E6FB5F12AB59E3D387",
+      "sha256": null,
+      "filename": null,
+      "role": "CerealRunner",
+      "eset": "MSIL/Agent.YBZ",
+      "sha256_verified": null,
+      "vt": "https://www.virustotal.com/gui/file/ad85fbf2cc879d4325bce1e6fb5f12ab59e3d387",
+      "hybrid_analysis": "https://hybrid-analysis.com/sample/ad85fbf2cc879d4325bce1e6fb5f12ab59e3d387"
+    },
+    {
+      "sha1": "3EA03188DBA8898D97E965732C1D6A68C5437EDC",
+      "sha256": null,
+      "filename": null,
+      "role": "CerealSprinter",
+      "eset": "MSIL/Agent.YBZ",
+      "sha256_verified": null,
+      "vt": "https://www.virustotal.com/gui/file/3ea03188dba8898d97e965732c1d6a68c5437edc",
+      "hybrid_analysis": "https://hybrid-analysis.com/sample/3ea03188dba8898d97e965732c1d6a68c5437edc"
+    },
+    {
+      "sha1": "3FBA18AF966DEACF7AE09E4D4238952DD90A6D6F",
+      "sha256": null,
+      "filename": null,
+      "role": "CerealHermit",
+      "eset": "MSIL/Agent.YBZ",
+      "sha256_verified": null,
+      "vt": "https://www.virustotal.com/gui/file/3fba18af966deacf7ae09e4d4238952dd90a6d6f",
+      "hybrid_analysis": "https://hybrid-analysis.com/sample/3fba18af966deacf7ae09e4d4238952dd90a6d6f"
+    },
+    {
+      "sha1": "EB9BA1DA5363F5D04E2F98673595FCE93F39A78E",
+      "sha256": null,
+      "filename": null,
+      "role": "CerealIron",
+      "eset": "MSIL/Agent.YBZ",
+      "sha256_verified": null,
+      "vt": "https://www.virustotal.com/gui/file/eb9ba1da5363f5d04e2f98673595fce93f39a78e",
+      "hybrid_analysis": "https://hybrid-analysis.com/sample/eb9ba1da5363f5d04e2f98673595fce93f39a78e"
+    },
+    {
+      "sha1": "0B4E4A1CE7FEE91BFC62B2A2EC572C325642BB60",
+      "sha256": null,
+      "filename": null,
+      "role": "CerealMoth",
+      "eset": "MSIL/Agent.YBZ",
+      "sha256_verified": null,
+      "vt": "https://www.virustotal.com/gui/file/0b4e4a1ce7fee91bfc62b2a2ec572c325642bb60",
+      "hybrid_analysis": "https://hybrid-analysis.com/sample/0b4e4a1ce7fee91bfc62b2a2ec572c325642bb60"
+    },
+    {
+      "sha1": "A4E477CE257F2C635401EF554E05506C080967C0",
+      "sha256": null,
+      "filename": null,
+      "role": "Bootstrapper DLL (x86)",
+      "eset": "Win32/Agent.AIOQ",
+      "sha256_verified": null,
+      "vt": "https://www.virustotal.com/gui/file/a4e477ce257f2c635401ef554e05506c080967c0",
+      "hybrid_analysis": "https://hybrid-analysis.com/sample/a4e477ce257f2c635401ef554e05506c080967c0"
+    },
+    {
+      "sha1": "A5BE8706032A0798FD63214A9F22EFA6309355F5",
+      "sha256": null,
+      "filename": null,
+      "role": "Bootstrapper DLL (x64)",
+      "eset": "Win32/Agent.AIOQ",
+      "sha256_verified": null,
+      "vt": "https://www.virustotal.com/gui/file/a5be8706032a0798fd63214a9f22efa6309355f5",
+      "hybrid_analysis": "https://hybrid-analysis.com/sample/a5be8706032a0798fd63214a9f22efa6309355f5"
+    }
+  ],
+  "additional_sha256_hunt_set": [
+    {
+      "sha256": "44877A8BCE6465F6F73CBE667BC9B3FE8DFAE7921814ED92C52A4464CC7E2367",
+      "note": "ESET turla/samples.sha256 Cereal-era batch; SHA-1 pairing pending VT"
+    },
+    {
+      "sha256": "28A7F4E290B7CB090E0C4808271558C4816F2F37489638177951D52D1DC6D48E",
+      "note": "ESET turla/samples.sha256 Cereal-era batch; SHA-1 pairing pending VT"
+    },
+    {
+      "sha256": "12E2060236A9B2A2933DFDB92B571949F7595FBE884642DE83FEA2817F17B94F",
+      "note": "ESET turla/samples.sha256 Cereal-era batch; SHA-1 pairing pending VT"
+    },
+    {
+      "sha256": "0B6AD919625E64CBA69AC9C282EC64F3AA22BFF2D13C0E4080ADDE7C2921F547",
+      "note": "ESET turla/samples.sha256 Cereal-era batch; SHA-1 pairing pending VT"
+    },
+    {
+      "sha256": "739BEBD15B29B43877471EA186587C013A2AA0E4017520F04B07EBEEDA228D6C",
+      "note": "ESET turla/samples.sha256 Cereal-era batch; SHA-1 pairing pending VT"
+    },
+    {
+      "sha256": "F801AAB6051A866F78C4B9ED34F6EFEA01F0880248E2D4D43CC0AF0C29869793",
+      "note": "ESET turla/samples.sha256 Cereal-era batch; SHA-1 pairing pending VT"
+    },
+    {
+      "sha256": "A8A7780F2175634F08F2F535D569397B95A367B41D6A2AFD7D03E873406198EB",
+      "note": "ESET turla/samples.sha256 Cereal-era batch; SHA-1 pairing pending VT"
+    },
+    {
+      "sha256": "C7B13EC4C2AFFCEF4E0337936F8535A554C14259E881AB9E23931F08956C6C2D",
+      "note": "ESET turla/samples.sha256 Cereal-era batch; SHA-1 pairing pending VT"
+    },
+    {
+      "sha256": "8E2D96DBA54941E891B4A4183E2E2FF8BCD2479DA63B3A6E718B0B27CB4D8C8A",
+      "note": "ESET turla/samples.sha256 Cereal-era batch; SHA-1 pairing pending VT"
+    },
+    {
+      "sha256": "0CEBBDB239AFBE4116334D8043BE2EC8957A024BD9320BB3DE3499F7ED3FCA04",
+      "note": "ESET turla/samples.sha256 Cereal-era batch; SHA-1 pairing pending VT"
+    },
+    {
+      "sha256": "2CCF0F05700ED3BC79D31F2541DDA3B46EC4E958BA845CBE58977A58BCC78E86",
+      "note": "ESET turla/samples.sha256 Cereal-era batch; SHA-1 pairing pending VT"
+    },
+    {
+      "sha256": "77BB1FCF636CB9C42DF7404AC5318BF0885E2042D3CBAD25E15B5E192D9D04B7",
+      "note": "ESET turla/samples.sha256 Cereal-era batch; likely bootstrapper"
+    },
+    {
+      "sha256": "4514195C893579961F5379FEA4DE28845663E54CB52CF923D0361E0DB97391EA",
+      "note": "ESET turla/samples.sha256 Cereal-era batch; likely bootstrapper"
+    }
+  ],
+  "non_file_indicators": {
+    "config_md5_key": "B38C96AE6643D2AB5C0BFE823D9C9017",
+    "native_image_folder_example": "00D687FB4E6FA2A01653DA0EDC88B666",
+    "cerealneuron_uri_prefixes": [
+      "https://*:443/owa/sdds/",
+      "HTTPS://*:443/AUTODISCOVER/MICROSOFT.EXCHANGE.PROXYSERVICE/",
+      "HTTPS://*:443/AUTODISCOVER/INTEGRATED/API/",
+      "HTTPS://*:443/AUTODISCOVER/PROXYSERVICE/",
+      "HTTPS://*:443/MICROSOFT-SERVER-ACTIVESYNC/INTEGRATED/API/"
+    ],
+    "hijack_paths": [
+      "C:\\Windows\\System32\\wbem\\ncobjapi.dll",
+      "C:\\Windows\\System32\\wbem\\wbemcomn.dll"
+    ],
+    "components_without_hashes": [
+      "CerealNeuron",
+      "CerealBox"
+    ]
+  }
+}
